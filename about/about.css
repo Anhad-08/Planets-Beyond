@@ -1,5 +1,5 @@
 body {
-    background-image: url(../../images/about-back.jpeg);
+    background-image: url(/images/about-back.jpeg);
 }
 
 #title-box {
@@ -15,8 +15,8 @@ body {
     margin-bottom: 100px;
     line-height: 1em;
 }
-.about-list {
-}
+/* .about-list {
+} */
 .about-element {
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.34);

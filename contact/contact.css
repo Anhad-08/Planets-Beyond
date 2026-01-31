@@ -1,5 +1,5 @@
 body {
-    background-image: url(../../images/about-back.jpeg);
+    background-image: url(/images/about-back.jpeg);
 }
 
 #title-box {
@@ -10,7 +10,7 @@ body {
     padding-block: 20px;
     width: 80%;
     margin-inline: auto;
-	clear;
+	/* clear; */
 }
 
 #title {
