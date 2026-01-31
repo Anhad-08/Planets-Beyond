@@ -1,0 +1,65 @@
+body {
+    background-image: url(../../images/home-background.jpeg);
+}
+
+#index-message-box {
+    height: 150px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 3.5px;
+    text-shadow: 0px 6px 4px #000;
+}
+
+#title-box {
+    font-style: normal;
+    margin-top: 10%;
+    padding-block: 30px;
+    text-align: center;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    width: 80%;
+    margin-inline: auto;
+    margin-bottom: 300px;
+}
+#title-box #title {
+    font-size: 128px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    text-shadow: 3px 6px 4px rgba(0, 0, 0, 0.25);
+}
+#title-box #subtitle {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+#sections {
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+#sections a {
+    text-decoration: none;
+}
+.section {
+    background-color: rgba(0, 0, 0, 0.18);
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.section:hover {
+    transform: scale(1.1);
+}
+.section .header {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}

@@ -1,0 +1,137 @@
+
+body {
+}
+
+#zone-hero {
+    color: #FFF;
+    font-size: 75px;
+    font-weight: 600;
+    letter-spacing: 6px;
+    text-align: center;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    margin-top: 15%;
+    margin-bottom: 25%;
+}
+
+.planet-panel {
+    height: 420px;
+    display: flex;
+    width: 90%;
+    margin-inline: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 25px;
+    margin-top: 39px;
+    justify-content: space-between;
+    gap: 10px;
+    transition: transform 0.5s;
+}
+
+.planet-panel.trappist {
+    background-color: #957775;
+}
+
+.planet-panel.proxima {
+    background-color:#C9BEA3;
+}
+.planet-panel.gliese {
+    background-color: #6997B9;
+}
+.planet-panel.hd {
+    background-color: #6997B9;
+}
+.planet-panel.wasp-121 {
+    background-color: #3A873E;
+}
+.planet-panel.wasp-12 {
+    background-color:  #485C65;
+}
+.planet-panel.poltergeist {
+    background-color: #AE3955;
+}
+.planet-panel.phobetor {
+    background-color: #6849C0;
+}
+
+.planet-panel a {
+    color: #FFF;
+}
+.planet-panel img {
+    max-width: 50%;
+    object-fit: cover;
+    flex: 1;
+}
+.planet-panel-content {
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    flex: 1;
+}
+
+.planet-panel-content p {
+    margin-block: 5px;
+}
+
+.planet-panel h1 {
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    margin-block: 15px;
+}
+
+.planet-panel ul {
+    padding-left: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.previous{
+    background-color: #31134E;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 20px 20px ;
+    margin-left: 125px;
+    font-size: 20px;
+    font-weight: 550;
+    letter-spacing: 3px;
+    text-align: center;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    float: left;
+    opacity: 0.8;
+    margin-top: 40px;
+}
+
+.previous:hover{
+    transform: scale(1.03);
+    transition: transform 0.5s;
+    color:#f1f1f1;
+    opacity: 1;
+
+}
+
+.next {
+    background-color: #31134E;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 20px 20px ;
+    margin-right: 125px;
+    font-size: 20px;
+    font-weight: 550;
+    letter-spacing: 3px;
+    text-align: center;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    float: right;
+    opacity: 0.8;
+    margin-top: 40px;
+}
+
+.next:hover{
+    transform: scale(1.03);
+    transition: transform 0.5s;
+    color:#f1f1f1;
+    opacity: 1;
+}

@@ -1,0 +1,87 @@
+body {
+    background-image: url(../../images/solar-system.jpg);
+}
+
+#title-box {
+    font-style: normal;
+    margin-top: 10%;
+    padding-block: 30px;
+    text-align: center;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    width: 80%;
+    margin-inline: auto;
+    margin-bottom: 300px;
+    font-size: 70px;
+}
+
+.system-panel {
+    height: 350px;
+    display: flex;
+    width: 90%;
+    margin-inline: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 25px;
+    margin-top: 39px;
+    justify-content: space-between;
+    gap: 10px;
+    transition: transform 0.5s;
+    cursor: pointer;
+}
+
+.system-panel:hover {
+    transform: scale(1.03);
+    transition: transform 0.5s;
+}
+
+.system-panel.habitable {
+    background-color: rgba(20, 169, 20, 0.91);
+    order: 2;
+}
+
+.system-panel.fire {
+    background-color: rgba(147, 55, 22, 0.91);
+}
+
+.system-panel.icy {
+    background-color: rgba(0, 169, 169, 0.88);
+}
+
+.system-panel a {
+    color: #FFF;
+}
+.system-panel img {
+    max-width: 50%;
+    object-fit: cover;
+    flex: 1;
+}
+.system-panel-content {
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    flex: 1;
+}
+
+.system-panel-content p {
+    margin-block: 5px;
+}
+
+.system-panel h1 {
+    font-size: 50px;
+    font-weight: 500;
+    letter-spacing: 0.75px;
+    margin-block: 15px;
+}
+
+.system-panel ul {
+    padding-left: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-left: 20px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+

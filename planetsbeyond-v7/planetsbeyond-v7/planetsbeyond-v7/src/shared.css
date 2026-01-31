@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Advent-Pro", sans-serif;
+    margin: 0;
+    background-color: #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #FFF;
+    overflow-x: hidden;
+}
+nav {
+    margin: auto;
+    width: fit-content;
+    font-size: 20px;
+}
+nav ul {
+    padding-left: 0;
+    list-style: none;
+    margin: 0;
+}
+nav ul li.top-level {
+    display: inline-block;
+    padding: 20px;
+}
+nav #home {
+    position: relative;
+}
+nav #home ul {
+    display: none;
+    position: absolute;
+    top: 45px;
+    left:0;
+    width: 300px;
+    padding-left: 0;
+}
+nav #home ul li {
+    margin: 0;
+    width: fit-content;
+    border-top: 1px solid white;
+    display: block;
+    margin-top: 5px;
+}
+nav #home:hover {
+    ul {
+        display: block;
+    }
+}
+.second-bg {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(6px);
+    /*overflow: auto;*/
+    overflow: hidden;
+    height: 100%;
+}
+a {
+    color: #fff4f4;
+    transition: color  0.2s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #a2b1d2;
+}
+a:active {
+    color: #769cdd;
+}
+a.default {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: initial;
+    transition: initial;
+}
+
+@font-face {
+    font-family: "Advent-Pro";
+    src: url('../fonts/AdventPro-Regular.ttf') format('truetype');
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #172d36;
+}
+::-webkit-scrollbar-thumb {
+    background: #a2b1d2;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #becadb;
+
+}
+
+footer {
+    background-color: rgb(54, 54, 92);
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+footer .title {
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    color: #FFF;
+}
+footer a {
+    color: white;
+    font-size: 25px;
+}
+footer .contact-container {
+    text-align: center;
+    width: 400px
+}
+footer .contact-us-description {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
