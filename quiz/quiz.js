@@ -125,10 +125,10 @@ class Quiz {
             submitButton.remove();
             document.querySelectorAll('.question-container').forEach((question) => question.remove());
             if (percentage < 60) {
-                let audio = new Audio('/sounds/quiz-fail.mp3');
+                let audio = new Audio('../sounds/quiz-fail.mp3');
                 audio.play();
             } else {
-                let audio = new Audio('/sounds/quiz-success.mp3');
+                let audio = new Audio('../sounds/quiz-success.mp3');
                 audio.play();
             }
 
