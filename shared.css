@@ -78,7 +78,7 @@ a.default {
 
 @font-face {
     font-family: "Advent-Pro";
-    src: url('/fonts/AdventPro-Regular.ttf') format('truetype');
+    src: url('./fonts/AdventPro-Regular.ttf') format('truetype');
 }
 
 
